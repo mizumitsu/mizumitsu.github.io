@@ -15,7 +15,15 @@ using Franklin
 verify_links()
 ```
 
+## コードのSyntax Highlighting
+マークダウンファイルに以下を記載する
+```markdown
+@def hacode=true
+```
+
 ## Misc
 - ヘッダー周りは`_layout`ディレクトリ下の該当htmlファイルを編集する．デフォルトのままだとFranklin.jlのGitHubページへのリンクが残っている.
 - 改行はダブルスペースではなく`\\`．（正確にはバックスラッシュ一個で良いが，Franklinがクラッシュするのでここでは2個で表記．）
 - tagは全て小文字として処理される
+
+{{ addcomments }}

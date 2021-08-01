@@ -1,5 +1,6 @@
 @def title = "JuliaLang"
 @def tags = ["Julia", "pages"]
+@def hascode=true
 
 # Julia全般のメモ
 
@@ -27,3 +28,5 @@
 cols=distinguishable_colors(5)
 RGBA(cols,0.5)
 ```
+
+{{ addcomments }}
