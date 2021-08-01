@@ -1,5 +1,6 @@
 @def title = "Franklin"
 @def tags = ["pages", "Julia", "Franklin"]
+@def hascode=true
 
 # Franklin.jl
 
